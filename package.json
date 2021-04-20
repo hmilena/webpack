@@ -1,0 +1,49 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "simple static webpack template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "@hmilena",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@webpack-cli/serve": "^1.3.1",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "css-loader": "^2.1.1",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "express": "^4.17.1",
+    "extract-loader": "^5.1.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.3.9",
+    "node-sass": "^5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss": "^8.2.10",
+    "postcss-loader": "^5.2.0",
+    "sass": "^1.32.9",
+    "sass-loader": "^11.0.1",
+    "source-map": "^0.7.3",
+    "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "class-transformer": "^0.4.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}

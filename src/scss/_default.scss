@@ -1,0 +1,18 @@
+:root {
+    --primaryColor: #000; 
+    --secondaryColor: #fff; 
+    --link: #2765F0;
+}
+
+$breakpoints: (
+  'phones': 480px,
+  'smaller': 660px,
+  'small': 767px,
+  'medium': 992px,
+  'large': 1200px
+) !default;
+
+html, body {
+    height: 100%;
+}
+
